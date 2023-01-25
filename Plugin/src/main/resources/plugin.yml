@@ -1,0 +1,65 @@
+name: MinecraftPlugin
+version: '${project.version}'
+main: minecraft.minecraftplugin.MinecraftPlugin
+author: Thekip07
+api-version: 1.19
+
+commands:
+  discord:
+    description: получить ссылку на дискорд сервер
+    usage: /<command>
+    aliases:
+      - disc
+      - ds
+      - дискорд
+      - дс
+
+  1:
+    description: выдать режим игры креатив
+    usage: /<command>
+    aliases:
+      - mode1
+      - g1
+      - setmode1
+
+  0:
+    description: выдать режим игры выживание
+    usage: /<command>
+    aliases:
+      - mode0
+      - g0
+      - setmode0
+      - defaultmode
+
+  feed:
+    description: пополнить уровень голода до максимума
+    usage: /<command>
+    aliases:
+      - f
+      - eat
+
+  fly:
+    description: включить режим полета
+    usage: /<command>
+    aliases:
+      - полет
+
+  info:
+    description: информация об сервере
+    usage: /<command>
+    aliases:
+      - i
+      - инфо
+
+  adminStick:
+    description: выдать админ палочку
+    usage: /<command>
+    aliases:
+      - stick
+
+  kit:
+    description: получить начальный набор
+    usage: /<command>
+    aliases:
+      - набор
+      - start
